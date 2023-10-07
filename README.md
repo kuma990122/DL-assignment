@@ -1,5 +1,5 @@
 # DL-assignment
-Image Classification with convolutional neural network
+Image classification using pretrained convolutional networks
 
 Team name: KuMua
 Team member:  Xue Zhexiong
