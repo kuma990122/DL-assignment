@@ -12,4 +12,5 @@ Project description:  For this topic, I'm going to use a pre-trained convolution
 functions of the files:
 
 dataset(folder): Includes the dataset, test set for training our model and testing
+
 main.py(python file): Includes the code for implementing the application for image classification and the comparison between our model and other CNN models
