@@ -72,10 +72,9 @@ testing_size = int(0.15*dataset_size)
 train_dataset, val_dataset, test_dataset = Data.random_split(
     dataset, [training_size, validation_size, testing_size])
 
-
 show_info(data, labels)
 for i in range(20):
-   show_image(data, labels, i)
+    show_image(data,labels,i)
 
 # Create dataloader object
 train_loader = Data.DataLoader(
@@ -98,3 +97,5 @@ batch_size=32,
 shuffle=True,
 num_workers=2
 )
+
+
